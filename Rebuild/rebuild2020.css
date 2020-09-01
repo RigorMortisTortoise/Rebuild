@@ -1,0 +1,314 @@
+/* VARIABLES */
+/* MAIN COLORS */
+/* SECONDARY COLORS */
+/* REBUILD COLORS */
+.rebuild {
+  background-color: black;
+  width: 100%;
+  overflow-x: hidden;
+  /* HERO */ }
+  .rebuild h1 {
+    font-family: erbaum, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #D3FCFF;
+    font-size: 40px;
+    margin: 0 0 24px 0;
+    line-height: 1.6em;
+    text-align: center; }
+  .rebuild h2 {
+    font-family: erbaum, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #D3FCFF;
+    font-size: 24px;
+    margin: 0 0 16px 0;
+    line-height: 1.6em; }
+  .rebuild h3 {
+    font-family: usual, sans-serif;
+    color: #0D5DB8;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-bottom: 16px; }
+  .rebuild p {
+    font-family: Usual, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #D3FCFF; }
+  .rebuild a {
+    font-family: erbaum, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #EA853A;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 8px;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s; }
+  .rebuild a:hover {
+    color: FFB681; }
+  .rebuild .logo {
+    display: block;
+    margin: auto;
+    padding-top: 80px; }
+  .rebuild .hero {
+    background-image: url("content/main-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 900px;
+    width: 100%;
+    overflow: hidden; }
+    .rebuild .hero h1 {
+      text-align: center;
+      margin-right: 8px;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s;
+      margin-top: 24px; }
+    .rebuild .hero h1:hover {
+      color: #EA853A; }
+    .rebuild .hero a {
+      display: flex;
+      justify-content: center; }
+    .rebuild .hero .orange-left {
+      transform: rotate(180deg);
+      opacity: 60%;
+      margin-left: -40px; }
+    .rebuild .hero .orange-right {
+      opacity: 60%;
+      margin-right: -40px; }
+  .rebuild .cars {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px; }
+    .rebuild .cars .center-motorcycle {
+      height: 350px;
+      z-index: 1; }
+    .rebuild .cars .outer-cars {
+      height: 200px;
+      z-index: 1; }
+  .rebuild .how-it-works {
+    margin-top: 80px;
+    margin-bottom: 80px; }
+    .rebuild .how-it-works h1 {
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 40px; }
+    .rebuild .how-it-works p {
+      max-width: 650px;
+      margin: auto; }
+    .rebuild .how-it-works .what-is-rebuild {
+      border: 2px solid #A8F9FE;
+      border-radius: 6px;
+      display: block;
+      margin: auto;
+      max-width: 800px;
+      width: 80%;
+      height: auto;
+      justify-content: center;
+      text-align: center;
+      padding: 32px; }
+      .rebuild .how-it-works .what-is-rebuild a {
+        color: #0D5DB8;
+        background-color: #A8F9FE;
+        padding: 18px 24px;
+        border-radius: 6px;
+        display: block;
+        margin: auto;
+        width: 30%;
+        transition-timing-function: ease-in-out;
+        transition-duration: .3s;
+        font-size: 18px; }
+      .rebuild .how-it-works .what-is-rebuild a:hover {
+        background-color: #EA853A;
+        color: white; }
+  .rebuild .how-to-enter {
+    background-image: url("content/diamond-plate-background.png");
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .rebuild .how-to-enter ul {
+      list-style-type: none;
+      color: #D3FCFF;
+      text-align: left;
+      font-family: Usual, sans-serif;
+      font-weight: 500;
+      max-width: 700px;
+      line-height: 2em; }
+      .rebuild .how-to-enter ul li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        font-size: 16px; }
+        .rebuild .how-to-enter ul li h2 {
+          padding-right: 8px; }
+  .rebuild .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+    justify-content: center; }
+  .rebuild .enter-now {
+    background-image: url("content/lights-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .rebuild .enter-now a {
+      display: block;
+      margin: auto;
+      width: max-content;
+      padding: 24px;
+      color: #A8F9FE;
+      border: 3px solid #A8F9FE;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 40px;
+      margin-top: 80px;
+      margin-bottom: 120px;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s; }
+    .rebuild .enter-now a:hover {
+      background-color: #A8F9FE;
+      color: #0D5DB8; }
+    .rebuild .enter-now .flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .rebuild .enter-now .flex .two-thousand {
+        order: 1; }
+      .rebuild .enter-now .flex .five-thousand {
+        order: 2; }
+      .rebuild .enter-now .flex .one-thousand {
+        order: 3; }
+  .rebuild .previous-winners {
+    margin-top: 120px; }
+    .rebuild .previous-winners h2 {
+      padding: 24px;
+      background: black;
+      background: linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0) 29%, rgba(0, 0, 0, 0) 100%); }
+    .rebuild .previous-winners .flex {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-bottom: 80px; }
+      .rebuild .previous-winners .flex .image {
+        background-size: 100%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        transition: all 0.2s ease; }
+      .rebuild .previous-winners .flex .left {
+        background-image: url("content/rebuild_2014_img.jpg"); }
+      .rebuild .previous-winners .flex .middle {
+        background-image: url("content/rebuild_2016_img.jpg"); }
+      .rebuild .previous-winners .flex .right {
+        background-image: url("content/rebuild_2017_img.jpg"); }
+      .rebuild .previous-winners .flex .image:hover {
+        background-position: top center; }
+      .rebuild .previous-winners .flex .image-wrapper {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 30%;
+        height: auto;
+        padding: 9% 0;
+        vertical-align: top;
+        border: 3px solid #A8F9FE;
+        border-radius: 6px;
+        box-shadow: 0 0 2px #fff, 0 0 5px #A8F9FE, 0 0 10px #A8F9FE, 0 0 20px #A8F9FE; }
+  .rebuild .ready-set-rebuild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-image: url("content/blue-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: left; }
+    .rebuild .ready-set-rebuild h1 {
+      margin: 0; }
+    .rebuild .ready-set-rebuild a {
+      color: #0D5DB8;
+      background-color: #A8F9FE;
+      padding: 12px 18px;
+      border-radius: 6px;
+      display: block;
+      min-width: 10%;
+      text-align: center;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s; }
+    .rebuild .ready-set-rebuild a:hover {
+      color: white;
+      background-color: #EA853A; }
+  @media only screen and (max-width: 1200px) {
+    .rebuild .hero .orange-left {
+      margin-left: -80px; }
+    .rebuild .hero .orange-right {
+      margin-right: -80px; }
+    .rebuild .cars {
+      justify-content: center; }
+      .rebuild .cars .center-motorcycle {
+        height: 250px; } }
+  @media only screen and (max-width: 800px) {
+    .rebuild .hero .orange-left {
+      margin-left: -240px; }
+    .rebuild .hero .orange-right {
+      margin-right: -240px; }
+    .rebuild .enter-now .flex .one-thousand {
+      height: 200px; }
+    .rebuild .enter-now .flex .two-thousand {
+      height: 200px; }
+    .rebuild .enter-now .flex .five-thousand {
+      height: 300px; } }
+  @media only screen and (max-width: 600px) {
+    .rebuild .how-it-works .what-is-rebuild a {
+      width: auto; }
+    .rebuild .previous-winners {
+      margin-top: 64px; }
+    .rebuild h1 {
+      font-size: 28px; }
+    .rebuild h2 {
+      font-size: 18px; }
+    .rebuild p {
+      font-size: 15px; }
+    .rebuild .how-to-enter ul {
+      font-size: 14px; }
+    .rebuild .enter-now a {
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 70%; }
+    .rebuild .enter-now .flex .one-thousand {
+      height: 100px; }
+    .rebuild .enter-now .flex .two-thousand {
+      height: 100px; }
+    .rebuild .enter-now .flex .five-thousand {
+      height: 150px; }
+    .rebuild .ready-set-rebuild h1 {
+      font-size: 24px; } }
+  @media only screen and (max-width: 420px) {
+    .rebuild .hero {
+      min-height: 600px; }
+      .rebuild .hero .orange-left {
+        margin-left: -160px;
+        height: 100px; }
+      .rebuild .hero .orange-right {
+        margin-right: -160px;
+        height: 100px; }
+    .rebuild .cars {
+      margin-top: -40px; }
+      .rebuild .cars .center-motorcycle {
+        height: 175px; }
+      .rebuild .cars .outer-cars {
+        height: 100px;
+        display: none; }
+    .rebuild .ready-set-rebuild {
+      flex-direction: column; }
+      .rebuild .ready-set-rebuild a {
+        width: 90%;
+        margin: 8px 0; } }
